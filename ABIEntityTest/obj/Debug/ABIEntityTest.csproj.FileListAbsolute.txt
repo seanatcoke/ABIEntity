@@ -1,0 +1,15 @@
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\ABIEntityTest.exe.config
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\ABIEntityTest.exe
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\ABIEntityTest.pdb
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\obj\Debug\ABIEntityTest.csprojResolveAssemblyReference.cache
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\obj\Debug\ABIEntityTest.Form1.resources
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\obj\Debug\ABIEntityTest.Properties.Resources.resources
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\obj\Debug\ABIEntityTest.csproj.GenerateResource.Cache
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\obj\Debug\ABIEntityTest.exe
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\obj\Debug\ABIEntityTest.pdb
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\ABIEntity.dll
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\EntityFramework.dll
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\ABIEntity.pdb
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\EntityFramework.xml
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntityTest\bin\Debug\EntityFramework.SqlServer.xml

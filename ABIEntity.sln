@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABIEntity", "ABIEntity\ABIEntity.csproj", "{C208A5D8-9F72-4C84-8EE4-1FD4702500F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABIEntityTest", "ABIEntityTest\ABIEntityTest.csproj", "{2B51FA81-A979-48AB-9382-3D2398B1B8BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C208A5D8-9F72-4C84-8EE4-1FD4702500F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C208A5D8-9F72-4C84-8EE4-1FD4702500F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C208A5D8-9F72-4C84-8EE4-1FD4702500F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C208A5D8-9F72-4C84-8EE4-1FD4702500F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B51FA81-A979-48AB-9382-3D2398B1B8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B51FA81-A979-48AB-9382-3D2398B1B8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B51FA81-A979-48AB-9382-3D2398B1B8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B51FA81-A979-48AB-9382-3D2398B1B8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

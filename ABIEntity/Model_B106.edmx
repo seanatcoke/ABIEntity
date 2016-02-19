@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="BallinaDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="OPC_Tags">
+          <Key>
+            <PropertyRef Name="TagName" />
+          </Key>
+          <Property Name="UID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Node" Type="char" MaxLength="20" />
+          <Property Name="DeviceGroupName" Type="char" MaxLength="20" />
+          <Property Name="TagName" Type="char" MaxLength="20" Nullable="false" />
+          <Property Name="TagType" Type="char" MaxLength="10" />
+          <Property Name="IsTag" Type="tinyint" />
+          <Property Name="RID" Type="int" />
+        </EntityType>
+        <Function Name="spGetOPCTags" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="BallinaDBModelStoreContainer">
+          <EntitySet Name="OPC_Tags" EntityType="Self.OPC_Tags" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BallinaDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="OPC_Tags">
+          <Key>
+            <PropertyRef Name="TagName" />
+          </Key>
+          <Property Name="UID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Node" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="DeviceGroupName" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="TagName" Type="String" MaxLength="20" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="TagType" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="IsTag" Type="Byte" />
+          <Property Name="RID" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="BallinaDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="OPC_Tags" EntityType="Self.OPC_Tags" />
+          <FunctionImport Name="spGetOPCTags" />
+          <FunctionImport Name="spGetOPCTags1" EntitySet="OPC_Tags" ReturnType="Collection(BallinaDBModel.OPC_Tags)" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BallinaDBModelStoreContainer" CdmEntityContainer="BallinaDBEntities">
+          <EntitySetMapping Name="OPC_Tags">
+            <EntityTypeMapping TypeName="BallinaDBModel.OPC_Tags">
+              <MappingFragment StoreEntitySet="OPC_Tags">
+                <ScalarProperty Name="UID" ColumnName="UID" />
+                <ScalarProperty Name="Node" ColumnName="Node" />
+                <ScalarProperty Name="DeviceGroupName" ColumnName="DeviceGroupName" />
+                <ScalarProperty Name="TagName" ColumnName="TagName" />
+                <ScalarProperty Name="TagType" ColumnName="TagType" />
+                <ScalarProperty Name="IsTag" ColumnName="IsTag" />
+                <ScalarProperty Name="RID" ColumnName="RID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="spGetOPCTags" FunctionName="BallinaDBModel.Store.spGetOPCTags" />
+          <FunctionImportMapping FunctionImportName="spGetOPCTags1" FunctionName="BallinaDBModel.Store.spGetOPCTags" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

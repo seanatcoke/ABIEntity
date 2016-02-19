@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BallinaDBModelStoreContainer" CdmEntityContainer="BallinaDBEntities">
+    <EntitySetMapping Name="OPC_Tags">
+      <EntityTypeMapping TypeName="BallinaDBModel.OPC_Tags">
+        <MappingFragment StoreEntitySet="OPC_Tags">
+          <ScalarProperty Name="UID" ColumnName="UID" />
+          <ScalarProperty Name="Node" ColumnName="Node" />
+          <ScalarProperty Name="DeviceGroupName" ColumnName="DeviceGroupName" />
+          <ScalarProperty Name="TagName" ColumnName="TagName" />
+          <ScalarProperty Name="TagType" ColumnName="TagType" />
+          <ScalarProperty Name="IsTag" ColumnName="IsTag" />
+          <ScalarProperty Name="RID" ColumnName="RID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spGetOPCTags" FunctionName="BallinaDBModel.Store.spGetOPCTags" />
+    <FunctionImportMapping FunctionImportName="spGetOPCTags1" FunctionName="BallinaDBModel.Store.spGetOPCTags" />
+  </EntityContainerMapping>
+</Mapping>

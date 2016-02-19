@@ -1,0 +1,10 @@
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\bin\Release\ABIEntity.dll.config
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\bin\Release\ABIEntity.dll
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\bin\Release\ABIEntity.pdb
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\bin\Release\EntityFramework.dll
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\bin\Release\EntityFramework.SqlServer.dll
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\bin\Release\EntityFramework.xml
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\bin\Release\EntityFramework.SqlServer.xml
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\obj\Release\ABIEntity.csprojResolveAssemblyReference.cache
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\obj\Release\ABIEntity.dll
+C:\Projects\CodeProjects\VS2013\ABIEntity\ABIEntity\ABIEntity\obj\Release\ABIEntity.pdb
